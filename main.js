@@ -28,7 +28,7 @@ document.querySelector("#searchbar").addEventListener('keyup',function(e){
 
 function search(searchTerm){
 
-    let url="https://api.giphy.com/v1/gifs/search?api_key=MsYE9AXfe1il4ioJACcd4RQEAnKAoocM&limit=50&offset=0&rating=g&lang=en&q="+searchTerm;
+    let url="https://api.giphy.com/v1/gifs/search?api_key=MsYE9AXfe1il4ioJACcd4RQEAnKAoocM&limit=100&offset=0&rating=g&lang=en&q="+searchTerm;
 
     // AJAX request
     let giphyAJAXCall = new XMLHttpRequest();
